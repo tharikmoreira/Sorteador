@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.67">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
+    <title>Sorteador</title>
+</head>
+
+<body>
+    <img src="./assets/git-sorte.gif" alt="git-sorte">
+    <h1 class="result"> </h1>
+    <h2 class="text-add">Sortear um número:</h2>
+    <div>
+        <input class="input-min" placeholder="entre" type="number">
+        <input class="input-max" placeholder="e" type="number">
+    </div>
+    <button class="drawer" onclick="generateNumber()">Sortear</button>
+    <button class="reset" onclick="out()">Resetar</button>
+</body>
+
+</html>
